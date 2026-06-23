@@ -1,9 +1,12 @@
 {
   "name": "@shadovxw/auth-browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bastion auth SDK for Next.js apps on shadovxw.me",
   "type": "module",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -37,9 +40,16 @@
       "index": "src/index.ts",
       "server": "src/server.ts"
     },
-    "format": ["cjs", "esm"],
+    "format": [
+      "cjs",
+      "esm"
+    ],
     "dts": true,
-    "external": ["next", "react", "react-dom"],
+    "external": [
+      "next",
+      "react",
+      "react-dom"
+    ],
     "banner": {
       "js": ""
     }

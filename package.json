@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Bastion auth SDK for Next.js apps on shadovxw.me",
   "type": "module",
+  "files": ["dist", "README.md"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
